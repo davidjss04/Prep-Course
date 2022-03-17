@@ -17,11 +17,11 @@ describe('mayuscula(nombre)', function() {
 });
 
 describe('invocarCallback(cb)', function() {
-  it('should invoke the callback that is passed in', function() {
+	it('should invoke the callback that is passed in', function() {
 		const cb = jest.fn();
 		invocarCallback(cb);
-    	expect(cb).toHaveBeenCalled();
-  });
+		expect(cb).toHaveBeenCalled();
+	});
 });
 
 describe('operacionMatematica(n1, n2, cb)', function() {

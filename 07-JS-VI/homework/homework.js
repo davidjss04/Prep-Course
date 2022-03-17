@@ -50,7 +50,7 @@ function map(array, cb) {
   const newArray = array.map(function(value){
     return cb(value);
   })
-  
+
   return newArray.filter(Boolean);
 }
 
